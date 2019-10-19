@@ -6,6 +6,14 @@ function getIt() {
 });
 }
 
+function frameIt() {
+    $('.tasty').on('load', function(){
+  //actions you want to 
+  alert("Hey!")
+    });
+  
+}
+
 $(document).ready(function(){
 
 // call functions here
