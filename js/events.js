@@ -21,7 +21,7 @@ function pressIt() {
 }
 
 function submitIt() {
-    $('#typing').on('keydown', function(){
+    $('form').on('submit', function(){
   //actions you want to 
   alert("Your form is going to be submitted now.")
     });
