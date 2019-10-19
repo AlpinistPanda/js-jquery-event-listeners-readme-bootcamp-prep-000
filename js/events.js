@@ -20,6 +20,14 @@ function pressIt() {
   
 }
 
+function submitIt() {
+    $('#typing').on('keydown', function(){
+  //actions you want to 
+  alert("Your form is going to be submitted now.")
+    });
+  
+}
+
 $(document).ready(function(){
 
 // call functions here
