@@ -12,6 +12,13 @@ function frameIt() {
     });
   
 }
+function pressIt() {
+    $('.tasty').on('load', function(){
+  //actions you want to 
+  alert("Hey!")
+    });
+  
+}
 
 $(document).ready(function(){
 
