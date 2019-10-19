@@ -13,7 +13,7 @@ function frameIt() {
   
 }
 function pressIt() {
-    $('.tasty').on('load', function(){
+    $('#typing').on('keydown', function(){
   //actions you want to 
   alert("Hey!")
     });
